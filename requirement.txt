@@ -1,0 +1,16 @@
+asgiref==3.8.1
+binarytree==6.5.1
+distlib==0.3.8
+filelock==3.14.0
+graphviz==0.20.3
+munpy==0.0.0
+numpy==1.26.4
+packaging==24.0
+platformdirs==4.2.2
+setuptools-scm==8.0.4
+sqlparse==0.5.0
+tomli==2.0.1
+typing_extensions==4.11.0
+tzdata==2024.1
+virtualenv==20.26.2
+virtualenvwrapper-win==1.2.7
