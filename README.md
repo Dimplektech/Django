@@ -5,12 +5,14 @@ Sticky Note Application is Web application designed using django, Pthon and SQLi
 
 <h2> Installation </h2>
 <ul>
-  <li>requirement.txt</li>
+  <li>pip install -r requirements.txt</li>
 
   <li>create a virtual environment named .venv based on your current interpreter:</li>
        <h4>Windows</h4>
             py -m venv task_venv
            .venv\scripts\activate
+   <li> We need to migrate the data to the database by doing ```python manage.py migrate``` then we get this:
+       From the terminal:  </li>        
  </ul> 
 <h2> Key Features:</h2>
 <h4>Object-Oriented Programming (OOP):</h4> The application is designed using OOP principles to ensure modularity and code reusability.
@@ -18,18 +20,38 @@ Sticky Note Application is Web application designed using django, Pthon and SQLi
 <h4>Unit Testing:</h4> The application includes unit tests to ensure code reliability and correctness.
 
 <h2> Features</h2>
-<h4>Create Task:</h4> Add a new task with a title and description.
-<h4>View Tasks: </h4>See a list of all tasks.
-<h4>Update Task:</h4> Edit the details of an existing task.
-<h4>Delete Task:</h4> Remove a task from the list.
+<h4>Create New Sticky Notes with title and body:</h4> Add a new task with a title and description.
+<h4>Edit existing Notes.: </h4>See a list of all tasks.
+<h4>Delete Notes:</h4> Edit the details of an existing task.
+<h4>View a List of Notes:</h4> Remove a task from the list.
 
-<h3>Nevigation></h3>
+<h3>Usage></h3>
 1. To verify the Sticky_notes project, make sure your virtual environment is activated, then start Django's development server using the command
 <h5>python manage.py runserver</h5>. The server runs on the default port 8000, and you see output like the following output in the terminal window
-![image](https://github.com/Dimplektech/Django/assets/163059141/f3dac847-df18-4324-9efa-ff50a0791185)
+    (django_venv) PS C:\Users\Simran\OneDrive\Desktop\Python_bootcamp\Task24_Django> cd sticky_notes
+    (django_venv) PS C:\Users\Simran\OneDrive\Desktop\Python_bootcamp\Task24_Django\sticky_notes> py manage.py runserver
+    Watching for file changes with StatReloader
+    Performing system checks...
+    
+    System check identified no issues (0 silenced).
+    June 07, 2024 - 09:03:57
+    Django version 5.0.6, using settings 'sticky_notes.settings'
+    Starting development server at http://127.0.0.1:8000/
+    Quit the server with CTRL-BREAK.
 
+2. CTRL + click  http://127.0.0.1:8000/ and page will be open on the browser and ayou will be navigate to Main screen. On Main Screen You can see list of all Notes.
+   There is button to Add button to add new Notes.
+   TO edit Notes you need to click on perticular note.
+   ![image](https://github.com/Dimplektech/Django/assets/163059141/e04d9981-9e7c-4648-8ee6-a47bd3eef419)
 
+3. Edit Note : Click on one of the note,it will take you to detail page where you can see details of perticular note and u can click edit.
+   ![image](https://github.com/Dimplektech/Django/assets/163059141/3f68f658-3b6d-4272-87f0-0645b9e5f881)
+   
+4.This page to Edit Perticulat Note.Once u save it will take you to detail page of that note.
+   ![image](https://github.com/Dimplektech/Django/assets/163059141/45d45fbe-bbb3-4b8f-bf4c-3e54dc314278)
 
+ 
+    
 <h2>Credits</h2>
 <h3> Author: Dimpal Kaware </h3>
 <h3>Repository: https://github.com/Dimplektech)</h3>
