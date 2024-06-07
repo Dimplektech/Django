@@ -9,15 +9,15 @@ Sticky Note Application is Web application designed using django, Pthon and SQLi
 
   <li>create a virtual environment named .venv based on your current interpreter:</li>
        <h4>Windows</h4>
-            py -m venv task_venv
+            py -m venv django_venv
            .venv\scripts\activate
    <li> We need to migrate the data to the database by doing ```python manage.py migrate``` then we get this:
        From the terminal:  </li>        
  </ul> 
 
 <h2> Features</h2>
-<h4>Create New Sticky Notes with title and body:</h4> Add a new task with a title and description.
-<h4>View a List of Notes: </h4>See a list of all tasks.
+<h4>Create New Sticky Notes with title and body:</h4> Add a new Note with a title and Content.
+<h4>View a List of Notes: </h4>See a list of all Notes.
 <h4>View Note:</h4> View details of perticular note.
 <h4>Edit existing Notes:</h4> Edit the details of an existing Note.
 <h4>Delete Note:</h4>Delete a Note from the list.
@@ -48,11 +48,15 @@ Sticky Note Application is Web application designed using django, Pthon and SQLi
 4. Edit Note : Click on one of the note,it will take you to detail page where you can see details of perticular note and u can click edit.
    ![image](https://github.com/Dimplektech/Django/assets/163059141/3f68f658-3b6d-4272-87f0-0645b9e5f881)
    
+
 5.This page to Edit Perticulat Note.Once u save it will take you to detail page of that note.
    ![image](https://github.com/Dimplektech/Django/assets/163059141/45d45fbe-bbb3-4b8f-bf4c-3e54dc314278)
-6. Back to notes button will take you to home page where you can see list of notes.
+
+6. Delete button will delete peticular note and navigate you to Home Page.   
+
+7. Back to notes button will take you to home page where you can see list of notes.
  
     
 <h2>Credits</h2>
 <h3> Author: Dimpal Kaware </h3>
-<h3>Repository: https://github.com/Dimplektech)</h3>
+<h3>Repository: https://github.com/Dimplektech</h3>
