@@ -1,7 +1,7 @@
 # Sticky Notes Apllication
 
 <h2>Descrition</h2>
-Sticky Note Application is Web application designed using django, Pthon and SQLite to help user to create Notes efficiently. It allows users to create, update, delete, and view Notes. This application is important for learning fundamental CRUD (Create, Read, Update, Delete) and creating Database in SQlite. It also allows user to nevigate to one page to another page for view and edit notes.
+Sticky Note Application is Web application designed using django, Pthon and SQLite to help user to create Notes efficiently. It allows users to create, update, delete, and view Notes. This application is important for learning fundamental DJango, CRUD (Create, Read, Update, Delete) and creating Database in SQlite. It also allows user to nevigate to one page to another page for view and edit notes.
 
 <h2> Installation </h2>
 <ul>
@@ -14,16 +14,13 @@ Sticky Note Application is Web application designed using django, Pthon and SQLi
    <li> We need to migrate the data to the database by doing ```python manage.py migrate``` then we get this:
        From the terminal:  </li>        
  </ul> 
-<h2> Key Features:</h2>
-<h4>Object-Oriented Programming (OOP):</h4> The application is designed using OOP principles to ensure modularity and code reusability.
-<h4>OOP Inheritance:</h4> Classes inherit properties and methods from other classes, promoting code reuse and logical hierarchy.
-<h4>Unit Testing:</h4> The application includes unit tests to ensure code reliability and correctness.
 
 <h2> Features</h2>
 <h4>Create New Sticky Notes with title and body:</h4> Add a new task with a title and description.
-<h4>Edit existing Notes.: </h4>See a list of all tasks.
-<h4>Delete Notes:</h4> Edit the details of an existing task.
-<h4>View a List of Notes:</h4> Remove a task from the list.
+<h4>View a List of Notes: </h4>See a list of all tasks.
+<h4>View Note:</h4> View details of perticular note.
+<h4>Edit existing Notes:</h4> Edit the details of an existing Note.
+<h4>Delete Note:</h4>Delete a Note from the list.
 
 <h3>Usage></h3>
 1. To verify the Sticky_notes project, make sure your virtual environment is activated, then start Django's development server using the command
@@ -43,13 +40,17 @@ Sticky Note Application is Web application designed using django, Pthon and SQLi
    There is button to Add button to add new Notes.
    TO edit Notes you need to click on perticular note.
    ![image](https://github.com/Dimplektech/Django/assets/163059141/e04d9981-9e7c-4648-8ee6-a47bd3eef419)
+   
+3. To add new Note ,Click on Add button,it will nevigate you to another page to add note.
+ ![image](https://github.com/Dimplektech/Django/assets/163059141/c9a46e7e-b32f-4311-a5db-7595f119fa43)
+   
 
-3. Edit Note : Click on one of the note,it will take you to detail page where you can see details of perticular note and u can click edit.
+4. Edit Note : Click on one of the note,it will take you to detail page where you can see details of perticular note and u can click edit.
    ![image](https://github.com/Dimplektech/Django/assets/163059141/3f68f658-3b6d-4272-87f0-0645b9e5f881)
    
-4.This page to Edit Perticulat Note.Once u save it will take you to detail page of that note.
+5.This page to Edit Perticulat Note.Once u save it will take you to detail page of that note.
    ![image](https://github.com/Dimplektech/Django/assets/163059141/45d45fbe-bbb3-4b8f-bf4c-3e54dc314278)
-
+6. Back to notes button will take you to home page where you can see list of notes.
  
     
 <h2>Credits</h2>
