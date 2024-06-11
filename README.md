@@ -84,13 +84,12 @@ Sticky Note Application is Web application designed using django, Pthon and SQLi
 ### Notes
 - `title`: The title of the note.
 - `content`: The content of the note.
-- `post`: Foreign key relationship to the `Post` model.
 - `created_at`: Timestamp when the note was created.
 - `updated_at`: Timestamp when the note was last updated.
 - 
 ## Views 
 ### Notes Views
-- `note_list`: Displays a list of all notes associated with a specific post.
+- `note_list`: Displays a list of all notes.
 - `note_detail`: Displays details of a specific note.
 - `note_new`: Form to create a new note.
 - `note_edit`: Form to edit an existing note.
