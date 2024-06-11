@@ -20,7 +20,7 @@ Sticky Note Application is Web application designed using django, Pthon and SQLi
 ## Installation
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/sticky-notes-app.git
+    git clone https://github.com/Dimplektech/Django.git
     cd sticky-notes-app
     ```
 
