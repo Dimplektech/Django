@@ -86,7 +86,7 @@ Sticky Note Application is Web application designed using django, Pthon and SQLi
 - `content`: The content of the note.
 - `created_at`: Timestamp when the note was created.
 - `updated_at`: Timestamp when the note was last updated.
-- 
+
 ## Views 
 ### Notes Views
 - `note_list`: Displays a list of all notes.
