@@ -1,19 +1,14 @@
 # Sticky Notes Apllication
+In this README file:
+- **Project Overview** gives a brief introduction to the project.
+- **Features** lists the key functionalities of the project.
+- **Installation** provides step-by-step instructions to set up the project locally.
+- **Usage** explains how to access and use the application.
+- **Models** and **Views** sections give details about the database models and the main views in the application.
+- **Credits** 
 
-<h2>Descrition</h2>
+<h2>Project Overview</h2>
 Sticky Note Application is Web application designed using django, Pthon and SQLite to help user to create Notes efficiently. It allows users to create, update, delete, and view Notes. This application is important for learning fundamental DJango, CRUD (Create, Read, Update, Delete) and creating Database in SQlite. It also allows user to nevigate to one page to another page for view and edit notes.
-
-<h2> Installation </h2>
-<ul>
-  <li>pip install -r requirements.txt</li>
-
-  <li>create a virtual environment named .venv based on your current interpreter:</li>
-       <h4>Windows</h4>
-            py -m venv django_venv
-           .venv\scripts\activate
-   <li> We need to migrate the data to the database by doing ```python manage.py migrate``` then we get this:
-       From the terminal:  </li>        
- </ul> 
 
 <h2> Features</h2>
 <h4>Create New Sticky Notes with title and body:</h4> Add a new Note with a title and Content.
@@ -21,6 +16,35 @@ Sticky Note Application is Web application designed using django, Pthon and SQLi
 <h4>View Note:</h4> View details of perticular note.
 <h4>Edit existing Notes:</h4> Edit the details of an existing Note.
 <h4>Delete Note:</h4>Delete a Note from the list.
+
+## Installation
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/yourusername/sticky-notes-app.git
+    cd sticky-notes-app
+    ```
+
+2. **Create and activate a virtual environment:**
+    ```sh
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. **Install the required dependencies:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+4. **Apply migrations:**
+    ```sh
+    python manage.py migrate
+    ```
+
+5. **Run the development server:**
+    ```sh
+    python manage.py runserver
+    ```
+
 
 <h3>Usage></h3>
 1. To verify the Sticky_notes project, make sure your virtual environment is activated, then start Django's development server using the command
@@ -55,6 +79,23 @@ Sticky Note Application is Web application designed using django, Pthon and SQLi
 6. Delete button will delete peticular note and navigate you to Home Page.   
 
 7. Back to notes button will take you to home page where you can see list of notes.
+
+## Model
+### Notes
+- `title`: The title of the note.
+- `content`: The content of the note.
+- `post`: Foreign key relationship to the `Post` model.
+- `created_at`: Timestamp when the note was created.
+- `updated_at`: Timestamp when the note was last updated.
+- 
+## Views 
+### Notes Views
+- `note_list`: Displays a list of all notes associated with a specific post.
+- `note_detail`: Displays details of a specific note.
+- `note_new`: Form to create a new note.
+- `note_edit`: Form to edit an existing note.
+- `note_delete`: Deletes a specified note.
+
  
     
 <h2>Credits</h2>
